@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Majed Khaled — Personal Portfolio
 
-## Getting Started
+My personal portfolio website, built with Next.js, JavaScript, and Tailwind CSS. It introduces me, showcases my projects, and shares the courses and learning materials from my software engineering journey.
 
-First, run the development server:
+## About Me
+
+I’m Majed Khaled Al-Thobaiti, a final-year Software Engineering student at the University of Jeddah. I build responsive web applications with React and Next.js and am open to cooperative training and junior front-end opportunities.
+
+## Pages
+
+- **Home** — a brief introduction, personal photo, featured projects, and a course preview.
+- **Projects** — project cards with screenshots, descriptions, technologies, and live website links.
+- **Courses** — courses grouped into Completed, Currently Studying, and Planned, with images and links to my study notes where available.
+
+## Technologies
+
+- Next.js App Router
+- React
+- JavaScript
+- Tailwind CSS
+- React Icons
+
+## Run Locally
+
+Clone this repository and open its folder in your terminal. Install the dependencies and start the development server.
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Production Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Create and run a production build locally.
 
-## Learn More
+```bash
+npm run build
+npm start
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Updating the Content
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Project information is stored in `data/projects.js`. Add a project object with a unique ID, title, description, image, technologies, and destination link to display another project.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Course information is stored in `data/courses.js`. Each course uses a `status` value of `completed`, `current`, or `planned`. Add a `notesHref` URL to display its study notes button.
 
-## Deploy on Vercel
+If the project uses a `src` directory, these data files are located inside `src`.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Images and Course Notes
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Portfolio media and study notes are stored in my [Personal Website Media repository](https://github.com/majed-khalid1/Personal-Webstie-Media).
+
+Course images and learning resources are credited to their respective instructors and creators. The linked study notes include my personal summaries and annotations.
+
+## Featured Project
+
+[Blog Project](https://blog.majedk.com) — a full-stack Next.js and Supabase blog with Google sign-in, post management, and recently viewed posts.
+
+## Connect
+
+- [GitHub](https://github.com/majed-khalid1)
+- [LinkedIn](https://www.linkedin.com/in/maged-khalid-1316a8276/)
