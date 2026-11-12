@@ -1,6 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  /* config options here */
   turbopack: {
     rules: {
       "*.css": {
@@ -8,6 +7,23 @@ const nextConfig = {
         as: "*.css",
       },
     },
+  },
+
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "raw.githubusercontent.com",
+        pathname:
+          "/majed-khalid1/Personal-Webstie-Media/main/cources-images/**",
+      },
+      {
+        protocol: "https",
+        hostname: "raw.githubusercontent.com",
+        pathname:
+          "/majed-khalid1/nextjs-supabase-blog/main/public/screenshots/**",
+      },
+    ],
   },
 };
 
