@@ -32,7 +32,7 @@ export const courses = [
   },
   {
     id: "javascript",
-    title: "JavaScript",
+    title: "JavaScrip",
     provider: "Elzero Academy",
     status: "completed",
     image:
