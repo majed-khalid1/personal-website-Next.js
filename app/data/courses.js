@@ -17,7 +17,7 @@ export const courses = [
       "https://raw.githubusercontent.com/majed-khalid1/Personal-Webstie-Media/main/cources-images/HTML%20course%20image.png",
     href: "https://elzero.org/study/html-2021-study-plan/",
     notesHref:
-      "https://github.com/majed-khalid1/Personal-Webstie-Media/blob/main/course-notes/learn%20HML%20course%20-notes.pdf",
+      "https://github.com/majed-khalid1/Personal-Webstie-Media/blob/main/course-notes/Algorithm-for%20publish%20.",
   },
   {
     id: "css",
