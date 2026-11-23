@@ -81,7 +81,7 @@ export const courses = [
       "https://raw.githubusercontent.com/majed-khalid1/Personal-Webstie-Media/main/cources-images/Algorithm%20course%20image.png",
     href: "https://cloudnativebasecamp.com/courses/algo-01",
     notesHref:
-      "https://github.com/majed-khalid1/Personal-Webstie-Media/blob/main/course-notes/Algorithm-notes.pdf",
+      "https://github.com/majed-khalid1/Personal-Webstie-Media/blob/main/course-notes/Algorithm-for%20publish%20.pdf",
   },
   {
     id: "data-structures",
