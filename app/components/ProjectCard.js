@@ -30,6 +30,7 @@ export default function ProjectCard({ project }) {
 
         <a
           href={project.href}
+          target="_blank"
           className="mt-auto pt-2 font-semibold text-brand-dark hover:underline"
         >
           View live project →

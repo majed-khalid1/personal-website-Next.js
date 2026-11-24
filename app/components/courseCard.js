@@ -17,7 +17,11 @@ export default function CourseCard({ course }) {
 
       <div className="p-5">
         <h3 className="text-base font-semibold">
-          <a href={course.href} className="hover:text-brand-dark">
+          <a
+            href={course.href}
+            target="_blank"
+            className="hover:text-brand-dark"
+          >
             {course.title}
           </a>
         </h3>

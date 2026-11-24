@@ -38,7 +38,8 @@ export const courses = [
     image:
       "https://raw.githubusercontent.com/majed-khalid1/Personal-Webstie-Media/main/cources-images/javaScript%20course%20image.png",
     href: "https://youtube.com/playlist?list=PLDoPjvoNmBAx3kiplQR_oeDqLDBUDYwVv",
-    notesHref: "PASTE_YOUR_GITHUB_PDF_LINK_HERE",
+    notesHref:
+      "https://github.com/majed-khalid1/Personal-Webstie-Media/blob/main/course-notes/Java%20script%20course%20-notes.pdf",
   },
   {
     id: "react",
@@ -48,7 +49,8 @@ export const courses = [
     image:
       "https://raw.githubusercontent.com/majed-khalid1/Personal-Webstie-Media/main/cources-images/React%20crash%20course%20image.png",
     href: "https://youtu.be/LDB4uaJ87e0",
-    notesHref: "PASTE_YOUR_GITHUB_PDF_LINK_HERE",
+    notesHref:
+      "https://github.com/majed-khalid1/Personal-Webstie-Media/blob/main/course-notes/React%20crash%20course.pdf",
   },
   {
     id: "nextjs",
