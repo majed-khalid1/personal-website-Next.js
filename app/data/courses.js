@@ -17,7 +17,7 @@ export const courses = [
       "https://raw.githubusercontent.com/majed-khalid1/Personal-Webstie-Media/main/cources-images/HTML%20course%20image.png",
     href: "https://elzero.org/study/html-2021-study-plan/",
     notesHref:
-      "https://github.com/majed-khalid1/Personal-Webstie-Media/blob/main/course-notes/Algorithm-for%20publish%20.",
+      "https://drive.google.com/file/d/1izyXgLuPJ5U0bo-v0f-Ogv4NAVVYiGvN/view?usp=drive_link",
   },
   {
     id: "css",
@@ -28,7 +28,7 @@ export const courses = [
       "https://raw.githubusercontent.com/majed-khalid1/Personal-Webstie-Media/main/cources-images/CSS%20course%20image.png",
     href: "https://youtube.com/playlist?list=PLDoPjvoNmBAzjsz06gkzlSrlev53MGIKe",
     notesHref:
-      "https://github.com/majed-khalid1/Personal-Webstie-Media/blob/main/course-notes/Learn%20CSS%20course%20-notes.pdf",
+      "https://drive.google.com/file/d/1M3jkjrCwdTXY2ERa5GwBCL9BWYcZpoW3/view?usp=drive_link",
   },
   {
     id: "javascript",
@@ -39,7 +39,7 @@ export const courses = [
       "https://raw.githubusercontent.com/majed-khalid1/Personal-Webstie-Media/main/cources-images/javaScript%20course%20image.png",
     href: "https://youtube.com/playlist?list=PLDoPjvoNmBAx3kiplQR_oeDqLDBUDYwVv",
     notesHref:
-      "https://github.com/majed-khalid1/Personal-Webstie-Media/blob/main/course-notes/Java%20script%20course%20-notes.pdf",
+      "https://drive.google.com/file/d/1K9Fcl_FpDIGEN3RURaJ09xAOnVOUbTpU/view?usp=drive_link",
   },
   {
     id: "react",
@@ -50,7 +50,7 @@ export const courses = [
       "https://raw.githubusercontent.com/majed-khalid1/Personal-Webstie-Media/main/cources-images/React%20crash%20course%20image.png",
     href: "https://youtu.be/LDB4uaJ87e0",
     notesHref:
-      "https://github.com/majed-khalid1/Personal-Webstie-Media/blob/main/course-notes/React%20crash%20course.pdf",
+      "https://drive.google.com/file/d/1N3CNQjK_ukNd2fZGtpB9fQpngTBo5yyQ/view?usp=drive_link",
   },
   {
     id: "nextjs",
@@ -61,7 +61,7 @@ export const courses = [
       "https://raw.githubusercontent.com/majed-khalid1/Personal-Webstie-Media/main/cources-images/Next.js%20course%20image.png",
     href: "https://youtu.be/jZInNd6djz4",
     notesHref:
-      "https://github.com/majed-khalid1/Personal-Webstie-Media/blob/main/course-notes/Nextjs-notes.pdf",
+      "https://drive.google.com/file/d/14eNX_h3KzpsvR-by3YOK7V6j0eKVzhnA/view?usp=drive_link",
   },
   {
     id: "tailwind",
@@ -72,7 +72,7 @@ export const courses = [
       "https://raw.githubusercontent.com/majed-khalid1/Personal-Webstie-Media/main/cources-images/Tailwend%20course%20image.png",
     href: "https://youtu.be/6biMWgD6_JY",
     notesHref:
-      "https://github.com/majed-khalid1/Personal-Webstie-Media/blob/main/course-notes/Tailwind%20CSS-notes.pdf",
+      "https://drive.google.com/file/d/14EIFmu1NdKLlK4XqfG4tZFXu_ij1rolB/view?usp=drive_link",
   },
   {
     id: "algorithms",
@@ -97,6 +97,6 @@ export const courses = [
     title: "System Design",
     provider: "16-week study plan",
     status: "planned",
-    href: "/system-design-plan.pdf",
+    href: "/https://drive.google.com/file/d/1ZtmrjGLtdte64y-BFjcLFV5HjB5WeHyp/view?usp=drive_link",
   },
 ];
